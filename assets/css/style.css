@@ -357,6 +357,7 @@ p {
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
+
 }
 #hero .carousel-inner .carousel-item,
 #hero .carousel-inner .active.carousel-item-start,
