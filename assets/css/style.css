@@ -426,10 +426,7 @@ p {
   #logoDibujo{
     width: 500px;
   }
-  #fotoServicio img{
-    max-width: 100%;
-    max-height: 100%;
-  }
+  
 }
 @media (min-width: 1024px) {
   #hero p {
