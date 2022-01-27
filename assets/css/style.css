@@ -242,6 +242,7 @@ p {
   bottom: 365px;
   transition: 0.3s;
   z-index: 999;
+  text-align: center;
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
@@ -257,8 +258,7 @@ p {
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
- 
- 
+  text-align: center;
   overflow-y: auto;
   transition: 0.3s;
 }
