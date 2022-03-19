@@ -117,6 +117,13 @@ p {
   justify-content: center;
 }
 
+.main-image{
+  background: url(/assets/img/slaid/2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 @media (min-width: 1024px) {
   .navbar-collapse{
@@ -136,6 +143,23 @@ p {
 
   #header{
     position: fixed;
+  }
+
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #4b605c;
+  }
+  .section-title p {
+    margin-bottom: 0;
+    color: #5f7c78;
   }
 }
 
@@ -278,6 +302,9 @@ p {
   #welcome br{
     display: none;
   }
+
+ 
+  
 }
 
 
@@ -299,7 +326,7 @@ section {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -307,6 +334,7 @@ section {
   color: #4b605c;
 }
 .section-title p {
+  font-size: 30px;;
   margin-bottom: 0;
   color: #5f7c78;
 }
